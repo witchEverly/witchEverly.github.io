@@ -14,46 +14,73 @@
             line-height: 1.6;
         }
         .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
+            max-width: 1000px;
+            margin: 10px auto;
+            padding: 40px;
             background-color: #1f1e33;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         }
         h1, h2, h3 {
+            text-align: center;
             color: #fe428e; /* Radical Pink */
         }
         .intro {
             text-align: center;
             font-size: 1.2em;
-            margin: 20px 0;
+            margin: 30px 0;
         }
         .profile-section {
             display: flex;
-            align-items: flex-start;
-            margin: 20px 0;
+            flex-wrap: wrap;
+            align-items: center; /* Center items vertically */
+            justify-content: center;
+            margin: 1px 0;
+        }
+        .profile-pic-container {
+            flex: 1;
+            max-width: 300px; /* Fixed width */
+            margin: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; /* Center image vertically */
         }
         .profile-pic {
             border: 1px solid #d3d3d3;
-            max-width: 800px; /* Fixed width */
-            margin-right: 40px;
+            width: 100%;
+            max-width: 300px;
+            height: auto;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* For shadow */
+        }
+        .profile-caption {
+            text-align: center;
+            font-size: 0.9em;
+            margin-top: 25px;
+        }
+        .profile-details {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            margin: 5px;
         }
         .subdomain-container {
             background-color: #3a1b35; /* Lighter Purple Background */
-            /*padding: 20px;*/
-            margin: 10px 0;
+            padding: 10px;
             border: 1px solid #d3d3d3; /* Whitish-grey outline */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
             border-radius: 10px;
             text-align: center;
+            width: 100%;
+            max-width: 600px;
+            margin: 10px auto;
         }
         .subdomain-container a {
             color: #fe428e; /* Radical Pink */
             text-decoration: none;
         }
         .subdomain-container a:hover {
-            text-align: center;
             text-decoration: underline;
         }
         .github-stats img {
@@ -74,6 +101,13 @@
             margin-top: 40px;
             box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow at the top */
         }
+        .footer a {
+            color: #fe428e;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -82,41 +116,42 @@
             <div style="text-align: center;">
                 <h1>✨ <i>LLMjessica.com</i> ✨</h1>
                 <p class="intro"><strong>Welcome to my personal site, coded with love using HTML and CSS.</strong></p>
-            <p class="intro">💻 Technology & AI/ML Junkie | 🐍 Pythonista | 📊 RLady | 🧹 PEP8 Abiding Dev</p>
+                <p class="intro">💻 Technology & AI/ML Junkie | 🐍 Pythonista | 📊 RLady | 🧹 PEP8 Abiding Dev</p>
             </div>
             <hr>
         </header>
         <div class="profile-section">
-            <img src="images/IMG_0112.jpg" alt="Profile Picture" class="profile-pic", style="width: 100%; max-width: 350px;"/>
-            <div>
-                <h2>⬇️ Check out my Subdomains for Code Demos and Applications ⬇️</h2>
-                <div class="subdomain-container" style="width: 100%; max-width: 800px;">
+            <div class="profile-pic-container">
+                <img src="images/IMG_0112.jpg" alt="Profile Picture" class="profile-pic"/>
+                <p class="profile-caption">⬆️ Cloudflare Lobby Selfie (This site is encrypted with Cloudflare, thanks Cloudflare!)</p>
+            </div>
+            <div class="profile-details">
+                <div class="subdomain-container">
                     <p>Applications I've Developed</p>
-                    <h3>🔗 <a href="https://llmjessica.com">apps.llmjessica.com</a></h3>
+                    <h2>🔗 <a href="https://apps.llmjessica.com">apps.llmjessica.com</a></h2>
                 </div>
-                <div class="subdomain-container" style="width: 100%; max-width: 800px;">
+                <div class="subdomain-container">
                     <p>Code Demos & Walk Throughs</p>
-                    <h3>🔗 <a href="https://llmjessica.com">demos.llmjessica.com</a></h3>
+                    <h2>🔗 <a href="https://demos.llmjessica.com">demos.llmjessica.com</a></h2>
                 </div>
-                <div class="subdomain-container" style="width: 100%; max-width: 800px;">
-                    <p><strong> LaTeX Lover 💌</strong> Check out this book I published with Bookdown:</p>
-                    <p><a href="https://llmjessica.com/ProbabilityandStatistics/">"Probability and Statistics with Bookdown"</a></p>
+                <div class="subdomain-container">
+                    <p>Check out the book I published with Bookdown:</p>
+                    <p><a href="https://llmjessica.com/ProbabilityandStatistics/">"Probability and Statistics"</a></p>
                     <p>Source Code Available: <a href="https://github.com/witchEverly/ProbabilityandStatistics">GitHub</a></p>
                 </div>
             </div>
         </div>
-        <p><strong>⬆️ Cloudflare Lobby Selfie </strong> <i>(This site is encrypted with Cloudflare, thanks Cloudflare!)</i></p>
         <section>
             <h2>Review My GitHub Activity 🚀</h2>
-            <div style="border: 1px solid #ddd; border-radius: 10px; padding: 10px; margin: 20px 0;">
+            <div style="border: 1px solid #ddd; border-radius: 20px; padding: 20px; margin: 20px 0;">
                 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
                     GitHub Contribution Chart
                     <img src="https://ghchart.rshah.org/witcheverly" alt="GitHub Contributions" style="width: 100%; max-width: 800px;"/>
                 </div>
             </div>
             <div style="display: flex; align-items: center; justify-content: space-between; margin: 20px 0;">
-                <img src="https://github-readme-stats.vercel.app/api?username=witchEverly&show_icons=true&theme=radical&hide_rank=true" alt="GitHub Stats" style="width: 50%; height: auto;"/>
-                <img src="https://streak-stats.demolab.com/?user=witchEverly&theme=radical" alt="GitHub Streak" style="width: 80%; height: auto;"/>
+                <img src="https://github-readme-stats.vercel.app/api?username=witchEverly&show_icons=true&theme=radical&hide_rank=true" alt="GitHub Stats" style="width: 48%; height: auto;"/>
+                <img src="https://streak-stats.demolab.com/?user=witchEverly&theme=radical" alt="GitHub Streak" style="width: 48%; height: auto;"/>
             </div>
         </section>
     </div>
@@ -125,7 +160,7 @@
         <br><br>
         <strong>Email:</strong> <a href="mailto:jess@llmjessica.com"><i>jess@llmjessica.com</i></a>
         <strong>GitHub:</strong> <a href="https://github.com/witchEverly">@witchEverly</a>
-        <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jessicabrungard/">https://www.linkedin.com/in/jessicabrungard/</a>
+        <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jessicabrungard/">Jessica Brungard</a>
         <br><br>
     </footer>
 </body>
