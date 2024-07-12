@@ -19,16 +19,6 @@ Check out my GitHub contributions and stats :smile:
 <img src="https://streak-stats.demolab.com/?user=witchEverly&theme=radical" alt="GitHub Streak" style="width: 100%;"/>
 </div>
 
----
-
-## GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=witchEverly&show_icons=true&hide=stars&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=witchEverly&layout=compact&theme=radical)
-![GitHub Streak](https://streak-stats.demolab.com/?user=witchEverly&theme=radical)
-
----
-
 ## Projects
 
 ## Blog
