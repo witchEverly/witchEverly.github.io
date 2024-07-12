@@ -36,8 +36,25 @@
         .profile-pic {
             border: 1px solid #d3d3d3;
             max-width: 800px; /* Fixed width */
-            margin-right: 20px;
+            margin-right: 40px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* For shadow */
+        }
+        .subdomain-container {
+            background-color: #3a1b35; /* Lighter Purple Background */
+            /*padding: 20px;*/
+            margin: 10px 0;
+            border: 1px solid #d3d3d3; /* Whitish-grey outline */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+            border-radius: 10px;
+            text-align: center;
+        }
+        .subdomain-container a {
+            color: #fe428e; /* Radical Pink */
+            text-decoration: none;
+        }
+        .subdomain-container a:hover {
+            text-align: center;
+            text-decoration: underline;
         }
         .github-stats img {
             width: 100%;
@@ -63,24 +80,32 @@
     <div class="container">
         <header>
             <div style="text-align: center;">
-                <hr>
-            <h1>✨ LLMjessica.com ✨</h1>
+                <h1>✨ <i>LLMjessica.com</i> ✨</h1>
                 <p class="intro"><strong>Welcome to my personal site, coded with love using HTML and CSS.</strong></p>
             <p class="intro">💻 Technology & AI/ML Junkie | 🐍 Pythonista | 📊 RLady | 🧹 PEP8 Abiding Dev</p>
             </div>
             <hr>
         </header>
         <div class="profile-section">
-            <img src="images/IMG_0112.jpg" alt="Profile Picture" class="profile-pic", style="width: 100%; max-width: 300px;"/>
+            <img src="images/IMG_0112.jpg" alt="Profile Picture" class="profile-pic", style="width: 100%; max-width: 350px;"/>
             <div>
                 <h2>⬇️ Check out my Subdomains for Code Demos and Applications ⬇️</h2>
-                <p>📝 <a href="https://llmjessica.com">llmjessica.com</a> - My personal blog</p>
-                <p>📝 <a href="https://llmjessica.com/blog">llmjessica.com/blog</a> - My tech blog</p>
-                <p>📝 <a href="https://llmjessica.com/projects">llmjessica.com/projects</a> - My projects</p>
-                <h3> 🌟 Check out my GitHub for more projects and contributions 🌟</h3>
-                <p><strong>⬅️ Cloudflare Lobby Selfie </strong> <i>(This site is encrypted with Cloudflare, thanks Cloudflare!)</i></p>
+                <div class="subdomain-container" style="width: 100%; max-width: 800px;">
+                    <p>Applications I've Developed</p>
+                    <h3>🔗 <a href="https://llmjessica.com">apps.llmjessica.com</a></h3>
+                </div>
+                <div class="subdomain-container" style="width: 100%; max-width: 800px;">
+                    <p>Code Demos & Walk Throughs</p>
+                    <h3>🔗 <a href="https://llmjessica.com">demos.llmjessica.com</a></h3>
+                </div>
+                <div class="subdomain-container" style="width: 100%; max-width: 800px;">
+                    <p><strong> LaTeX Lover 💌</strong> Check out this book I published with Bookdown:</p>
+                    <p><a href="https://llmjessica.com/ProbabilityandStatistics/">"Probability and Statistics with Bookdown"</a></p>
+                    <p>Source Code Available: <a href="https://github.com/witchEverly/ProbabilityandStatistics">GitHub</a></p>
+                </div>
             </div>
         </div>
+        <p><strong>⬆️ Cloudflare Lobby Selfie </strong> <i>(This site is encrypted with Cloudflare, thanks Cloudflare!)</i></p>
         <section>
             <h2>Review My GitHub Activity 🚀</h2>
             <div style="border: 1px solid #ddd; border-radius: 10px; padding: 10px; margin: 20px 0;">
@@ -96,11 +121,12 @@
         </section>
     </div>
     <footer class="footer">
+        <img src="images/footer_img.png" alt="Footer Image" style="border: solid #d3d3d3;">
+        <br><br>
         <strong>Email:</strong> <a href="mailto:jess@llmjessica.com"><i>jess@llmjessica.com</i></a>
         <strong>GitHub:</strong> <a href="https://github.com/witchEverly">@witchEverly</a>
         <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jessicabrungard/">https://www.linkedin.com/in/jessicabrungard/</a>
         <br><br>
-        <img src="images/footer_img.png" alt="Footer Image">
     </footer>
 </body>
 </html>
