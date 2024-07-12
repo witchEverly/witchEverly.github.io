@@ -1,37 +1,38 @@
-# Welcome to LLMjessica.com✨
+# LLMjessica.com ✨
 
-💝 Made this website for you to enjoy, thank you for visiting. 💕
+💝 Repository for my personal website. 💕
 
-##  Review My GitHub Activity 🚀
+## Navigate My Site
 
-<div style="border: 1px solid #ddd; border-radius: 10px; padding: 20px; margin: 20px 0;">
+- [Home](https://witcheverly.github.io/)
+- [About](https://witchEverly.github.io/about)
+- [Projects](https://witchEverly.github.io/projects)
+- [Blog](https://witchEverly.github.io/blog)
+- [Book](https://witchEverly.github.io/ProbabilityandStatistics)
+
+## Repository Structure
+
+```
+witcheverly.github.io/
+├── index.html
+├── projects/
+│   └── index.html
+└── blog/
+    ├── index.html
+    ├── post1/
+    │   └── index.html
+    ├── post2/
+    │   └── index.html
+    └── post3/
+        └── index.html
+```
+
+## Review My GitHub Activity 🚀
+
+<div style="border: 1px solid #ddd; border-radius: 10px; padding: 10px; margin: 20px 0;">
   <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    GitHub Contribution Chart
     <img src="https://ghchart.rshah.org/witcheverly" alt="GitHub Contributions" style="width: 100%; max-width: 800px;"/>
-  </div>
-
-  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-top: 20px;">
-    <img src="https://github-readme-stats.vercel.app/api?username=witchEverly&show_icons=true&theme=radical&hide_rank=true" alt="GitHub Stats" style="width: 48%;"/>
-    <img src="https://streak-stats.demolab.com/?user=witchEverly&theme=radical" alt="GitHub Streak" style="width: 48%;"/>
   </div>
 </div>
 
-## Projects
-
-## Blog
-
-### [Blog Post 1](#)
-
-*Date:*
-
-*Summary:*
-
-### [Blog Post 2](#)
-
-*Date:*
-
-*Summary:*
-
-
-## Contact
-
-- Lorem Ipsum
