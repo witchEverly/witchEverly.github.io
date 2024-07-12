@@ -1,22 +1,18 @@
-# Jessica Brungard :tada:
+# Welcome to LLMjessica.com✨
 
-:star: Made this website for you to enjoy :heart:, thank you for visiting.
+💝 Made this website for you to enjoy, thank you for visiting. 💕
 
-## GitHub Banners :sparkles: :sparkles:
+##  Review My GitHub Activity 🚀
 
-Check out my GitHub contributions and stats :smile:
+<div style="border: 1px solid #ddd; border-radius: 10px; padding: 20px; margin: 20px 0;">
+  <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <img src="https://ghchart.rshah.org/witcheverly" alt="GitHub Contributions" style="width: 100%; max-width: 800px;"/>
+  </div>
 
-<br>
-</br>
-<div style="display: flex; flex-direction: row;">
-<img src="https://ghchart.rshah.org/witcheverly" alt="Github Contributions" style="width: 100%;"/>
-</div>
-
-<br> </br>
-
-<div style="display: flex; flex-direction: row;">
-<img src="https://github-readme-stats.vercel.app/api?username=witchEverly&show_icons=true&theme=radical&hide_rank=true" alt="GitHub Stats" style="width: 100%;"/>
-<img src="https://streak-stats.demolab.com/?user=witchEverly&theme=radical" alt="GitHub Streak" style="width: 100%;"/>
+  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-top: 20px;">
+    <img src="https://github-readme-stats.vercel.app/api?username=witchEverly&show_icons=true&theme=radical&hide_rank=true" alt="GitHub Stats" style="width: 48%;"/>
+    <img src="https://streak-stats.demolab.com/?user=witchEverly&theme=radical" alt="GitHub Streak" style="width: 48%;"/>
+  </div>
 </div>
 
 ## Projects
