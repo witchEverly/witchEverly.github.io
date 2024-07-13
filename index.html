@@ -26,8 +26,13 @@
         }
         .intro {
             text-align: center;
+            font-size: 1.3em;
+            margin: 20px;
+        }
+        .quote-section {
+            text-align: center;
             font-size: 1.2em;
-            margin: 30px 0;
+            margin: 20px;
         }
         .profile-section {
             display: flex;
@@ -54,8 +59,8 @@
         }
         .profile-caption {
             text-align: center;
-            font-size: 0.9em;
-            margin-top: 25px;
+            font-size: 15px;
+            margin-top: 10px;
         }
         .profile-details {
             flex: 1;
@@ -88,11 +93,11 @@
             max-width: 48%;
             margin: 10px 1%;
         }
-        .github-stats {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
+        /*.github-stats {*/
+        /*    display: flex;*/
+        /*    justify-content: space-between;*/
+        /*    flex-wrap: wrap;*/
+        /*}*/
         .footer {
             text-align: center;
             padding: 20px 0;
@@ -115,15 +120,21 @@
         <header>
             <div style="text-align: center;">
                 <h1>✨ <i>LLMjessica.com</i> ✨</h1>
-                <p class="intro"><strong>Welcome to my personal site, coded with love using HTML and CSS.</strong></p>
-                <p class="intro">💻 Technology & AI/ML Junkie | 🐍 Pythonista | 📊 RLady | 🧹 PEP8 Abiding Dev</p>
+                <a class="intro">Welcome to my website, coded with love using HTML and CSS</a>
+                <br>
+                <strong>I like working with sub-word tokenizers and embedding models.</strong>
+                <br>
+                <br>
+                <a class="quote-section">💻 Technology & AI/ML Junkie | 🐍 Pythonista | 🧹 PEP8 Abiding Dev | 🎓USFCA MSDS </a>
+                <br>
+                <br>
+                <hr>
             </div>
-            <hr>
         </header>
         <div class="profile-section">
             <div class="profile-pic-container">
                 <img src="images/IMG_0112.jpg" alt="Profile Picture" class="profile-pic"/>
-                <p class="profile-caption">⬆️ Cloudflare Lobby Selfie (This site is encrypted with Cloudflare, thanks Cloudflare!)</p>
+                <p class="profile-caption">Cloudflare Lobby, San Francisco CA: LLMjessica.com is encrypted with the power of Cloudflare's lava lamps. <a href="https://www.cloudflare.com/learning/ssl/lava-lamp-encryption/">More Info.</a></p>
             </div>
             <div class="profile-details">
                 <div class="subdomain-container">
@@ -136,7 +147,7 @@
                 </div>
                 <div class="subdomain-container">
                     <p>Check out the book I published with Bookdown:</p>
-                    <p><a href="https://llmjessica.com/ProbabilityandStatistics/">"Probability and Statistics"</a></p>
+                    <p><a href="https://llmjessica.com/ProbabilityandStatistics/">🔗 "Probability and Statistics"</a></p>
                     <p>Source Code Available: <a href="https://github.com/witchEverly/ProbabilityandStatistics">GitHub</a></p>
                 </div>
             </div>
@@ -156,6 +167,7 @@
         </section>
     </div>
     <footer class="footer">
+        <p>&copy; 2024 LLMjessica.com. All rights reserved.</p>
         <img src="images/footer_img.png" alt="Footer Image" style="border: solid #d3d3d3;">
         <br><br>
         <strong>Email:</strong> <a href="mailto:jess@llmjessica.com"><i>jess@llmjessica.com</i></a>
