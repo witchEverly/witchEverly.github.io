@@ -98,21 +98,43 @@
         /*    justify-content: space-between;*/
         /*    flex-wrap: wrap;*/
         /*}*/
-        .footer {
-            text-align: center;
-            padding: 20px 0;
-            background-color: #21011e; /* Dark Purple Background */
-            color: #fe428e; /* Radical Pink */
-            margin-top: 40px;
-            box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow at the top */
-        }
-        .footer a {
-            color: #fe428e;
-            text-decoration: none;
-        }
-        .footer a:hover {
-            text-decoration: underline;
-        }
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #21011e; /* Dark Purple Background */
+    color: #fe428e; /* Radical Pink */
+    margin-top: 40px;
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow at the top */
+}
+
+.footer p {
+    margin: 0 0 10px 0;
+}
+
+.footer-img {
+    margin: 10px 0;
+    border: solid #d3d3d3;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer a {
+    color: #fe428e;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
     </style>
 </head>
 <body>
@@ -168,12 +190,12 @@
     </div>
     <footer class="footer">
         <p>&copy; 2024 LLMjessica.com. All rights reserved.</p>
-        <img src="images/footer_img.png" alt="Footer Image" style="border: solid #d3d3d3;">
-        <br><br>
-        <strong>Email:</strong> <a href="mailto:jess@llmjessica.com"><i>jess@llmjessica.com</i></a>
-        <strong>GitHub:</strong> <a href="https://github.com/witchEverly">@witchEverly</a>
-        <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jessicabrungard/">Jessica Brungard</a>
-        <br><br>
+        <img src="images/footer_img.png" alt="Footer Image" class="footer-img">
+        <div class="footer-links">
+            <strong>Email:</strong> <a href="mailto:jess@llmjessica.com"><i>jess@llmjessica.com</i></a>
+            <strong>GitHub:</strong> <a href="https://github.com/witchEverly">@witchEverly</a>
+            <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jessicabrungard/">Jessica Brungard</a>
+        </div>
     </footer>
 </body>
 </html>
