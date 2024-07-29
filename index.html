@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,15 +38,11 @@
             color: #fe428e; /* Radical Pink */
             margin: 20px 0;
         }
-        .intro {
-            text-align: center;
-            font-size: 1.3em;
-            margin: 20px 0;
-        }
-        .quote-section {
+        .intro, .quote-section {
+            display: block;
             text-align: center;
             font-size: 1.2em;
-            margin: 20px 0;
+            margin: 10px 0;
         }
         .profile-section {
             display: flex;
@@ -109,6 +107,23 @@
             max-width: 48%;
             margin: 10px 1%;
         }
+        .styled-button {
+            background-color: #fe428e; /* Radical Pink */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin: 10px 0;
+        }
+        .styled-button:hover {
+            background-color: #e02d54; /* Slightly darker shade for hover effect */
+        }
+        .styled-button:active {
+            background-color: #c9274b; /* Even darker shade for active effect */
+        }
         .footer {
             display: flex;
             flex-direction: column;
@@ -119,11 +134,14 @@
             color: #fe428e; /* Radical Pink */
             margin-top: 40px;
             box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow at the top */
+            width: 100%;
         }
         .footer p {
             margin: 0 0 10px 0;
         }
         .footer-img {
+            max-width: 100%;
+            height: auto;
             margin: 10px 0;
             border: solid #d3d3d3;
         }
@@ -142,18 +160,10 @@
 <body>
     <div class="container">
         <header>
-            <div style="text-align: center;">
-                <h1>✨ <i>LLMjessica.com</i> ✨</h1>
-                <a class="intro">Welcome to LLMjessica.com, coded with love using HTML and CSS.</a>
-                <br>
-                <strong>I like working with sub-word tokenizers and embedding models.</strong>
-                <br>
-                <br>
-                <a class="quote-section">💻 Technology & AI/ML Junkie | 🐍 Pythonista | 🧹 PEP8 Abiding Dev</a>
-                <br>
-                <br>
-                <hr>
-            </div>
+            <h1>✨ <i>LLMjessica.com</i> ✨</h1>
+            <span class="intro">Welcome to LLMjessica.com, coded with love using HTML and CSS.</span>
+            <span class="quote-section">💻 Technology & AI/ML Junkie | 🐍 Pythonista | 🧹 PEP8 Abiding Dev</span>
+            <hr>
         </header>
         <div class="profile-section">
             <div class="profile-pic-container">
@@ -166,18 +176,13 @@
                     <h2>🔗 <a href="https://apps.llmjessica.com">apps.llmjessica.com</a></h2>
                 </div>
                 <div class="subdomain-container">
-                    <p>Case Studies + Results from Past Experiments</p>
+                    <p>Case Studies & Results</p>
                     <h2>🔗 <a href="https://demos.llmjessica.com">demos.llmjessica.com</a></h2>
                 </div>
                 <div class="subdomain-container">
                     <p>Tech Blog & Information</p>
                     <h2>🔗 <a href="https://info.llmjessica.com">info.llmjessica.com</a></h2>
                 </div>
-<!--                <div class="subdomain-container">-->
-<!--                    <p>Check out the book I published with Bookdown:</p>-->
-<!--                    <p><a href="https://llmjessica.com/ProbabilityandStatistics/">🔗 "Probability and Statistics"</a></p>-->
-<!--                    <p>Source Code Available: <a href="https://github.com/witchEverly/ProbabilityandStatistics">GitHub</a></p>-->
-<!--                </div>-->
             </div>
         </div>
         <section>
