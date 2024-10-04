@@ -4,28 +4,21 @@
 
 ## Navigate My Site
 
-- [Home](https://witcheverly.github.io/)
-- [About](https://witchEverly.github.io/about)
-- [Projects](https://witchEverly.github.io/projects)
-- [Blog](https://witchEverly.github.io/blog)
-- [Book](https://witchEverly.github.io/ProbabilityandStatistics)
+- [Home](https://llmjessica.com)
+- [Applications](https://apps.llmjessica.com/)
+- [Projects](https://demos.llmjessica.com/)
+- [Info/Blog](https://info.llmjessica.com/)
 
 ## Repository Structure
 
 ```
-witcheverly.github.io/
+llmjessica.com/
 ├── index.html
-├── projects/
-│   └── index.html
-└── blog/
-    ├── index.html
-    ├── post1/
-    │   └── index.html
-    ├── post2/
-    │   └── index.html
-    └── post3/
-        └── index.html
+├── images/
+│   ├── favicon.ico     # Website favicon
+│   ├── ...
 ```
+
 
 ## Review My GitHub Activity 🚀
 
@@ -35,4 +28,9 @@ witcheverly.github.io/
     <img src="https://ghchart.rshah.org/witcheverly" alt="GitHub Contributions" style="width: 100%; max-width: 800px;"/>
   </div>
 </div>
+
+
+
+
+
 
